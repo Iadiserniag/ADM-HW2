@@ -32,6 +32,7 @@
     "warnings.filterwarnings(\"ignore\")\n",
     "import pandas as pd\n",
     "import numpy as np\n",
+    "import os",
     "import matplotlib.pyplot as plt\n",
     "import scipy.stats"
    ]
