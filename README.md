@@ -11,6 +11,6 @@ The repository ADM-HW2 contains the code from Homework 2 for the course of Algor
 
 `FILES CONTAINED`:
 
-* The file `HW2_notebook_GJL.ipynb` contains a Jupyter Notebook with Research Questions 1-8, Bonus Points A and B and Algorithmic Questions 1 and 2 of Homework 2 "Instagram Profiles & Posts".
+* The file `HW2_GROUP_5.ipynb` contains a Jupyter Notebook with Research Questions 1-8, Bonus Points A and B and Algorithmic Questions 1 and 2 of Homework 2 "Instagram Profiles & Posts".
 * The file `command_line_question.sh` contains the answer to Command Line Question in a .sh bash executable file.
 * The file `Image1.jpeg` contains a picture used for Algorithmic Question 2.
