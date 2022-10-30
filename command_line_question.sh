@@ -10,9 +10,8 @@ unzip instagram_profiles.zip
 cat instagram_posts.csv | awk 'length($8) > 100' | head -10 > top10profiles.csv
 
 #Finally we print their ids, and if their sid_profile is -1 ($2 != -1) it means they are not in instagram_profiles.csv, so we output "user not found"
-#However, within this ids, all the users are in instagram_profiles.csv. 
-#After testing our code, we learned that the first id that would output a "User not found" would appear if we print the top 80 users, instead of top 10.
-#But we ommit those lines in which the comments are the same '!seen[$8]++'
+#However, within these ids, all the users are in instagram_profiles.csv. After testing our code, we learned that the first id that would output a "User
+#not found" would appear if we print the top 80 users, instead of top 10.
 
 awk '{
 if($2 != -1)
@@ -26,3 +25,4 @@ print "User not found", "\n"
  
 }' top10profiles.csv
                    
+#If we wanted to ommit those lines in which the comments are the same we could use the command '!seen[$8]++' and to avoid repeated ids we could use '!seen[$4]++'
